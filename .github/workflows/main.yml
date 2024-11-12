@@ -18,6 +18,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run lint
+      
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         with:
